@@ -1,0 +1,99 @@
+h1{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h2, a, p{
+	font-family: 'Roboto', sans-serif;
+}
+
+.container-fluid {
+  height: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+	  .portada{
+	  	background-color:rgba(250, 198, 14, 0.9);
+		.navegation{
+			padding:12px;
+			background-color: rgba(250, 198, 14, 0.9);
+			.nav .nav-pills{
+				//padding:12px;
+				.active{
+					a{
+						position: fixed;
+					}
+				}
+				.linkeos{
+					margin-left: 9%;
+				}
+			}	
+		}
+		.home{
+		  background-color: rgba(250, 198, 14, 0.9);
+		  display: table;
+		  height: 100%;
+		  width: 100%;
+			
+			.text-vertical-center {
+			  color: white;
+			  display: table-cell;
+			  text-align: center;
+			  vertical-align: middle;
+			}
+		}
+	}
+	.cajas{
+		background-color: rgb(102, 141, 155);
+		padding: 4%;
+		.conjuntos{
+			  margin-right: 0px;
+			  .ejemplos{
+			  	padding:5%;
+				  	.contenido {
+				  		background-color: white;
+					 	padding: 56px;
+						.imagen{
+							img{
+								width: 100%;
+							}
+						}
+						.texto{
+							h2{
+								color:gray;
+							}
+							p {
+								color: gray;
+							}
+							button {
+								background-color: rgb(255, 155, 0);
+	  							border: 0;
+								border-radius: 7px;
+	  							color: white;
+	  							font-size: 14px;
+	  							padding: 7px;
+							}
+						}
+					}
+			  	
+			  	}
+			}
+		}
+		.footer{
+			background-color:rgba(250, 198, 14, 0.9);
+			p {
+				color:white;
+				margin:0px;
+				padding:20px;
+				text-align: center;
+				a{
+					color:rgb(145, 139, 99);
+					text-decoration: none;
+				}
+			}
+		}
+
+  
+}
+
+
+
